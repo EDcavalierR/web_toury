@@ -1,0 +1,12 @@
+
+.Details{
+
+
+
+    flex:0.2;
+    min-width: 250px;
+    border-right: solid 1px #1976D2;
+    box-sizing: border-box;
+    overflow-y:scroll;
+
+}

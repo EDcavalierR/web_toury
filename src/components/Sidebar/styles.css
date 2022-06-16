@@ -1,0 +1,50 @@
+
+
+.Sidebar{
+
+    padding:20px;
+    border:1px solid #0085FF;
+    flex:0.2;
+    min-width: 200px;
+    /* background-color:#F2F2F0; */
+
+}
+
+.Home{
+    margin-bottom:40px;
+   
+}
+
+.Sidebaricon{
+    user-select: none;
+    display:flex;
+    align-items:center;
+    padding:14px 10px;
+    height:40px;
+}
+.Sidebaricon:hover{
+
+    background-color: #F2F2F0;
+    transition: all 100ms ease-in-out;
+    cursor:pointer;
+    border-radius: 28px;
+    
+}
+
+.Sidebar h2{
+    font-size:15px;
+    font-weight:bold;
+    margin: 10px;
+    color: #393942;
+    padding: 0 10px;
+}
+h2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.Sidebar .MuiSvgIcon-root{
+    width: 32px;
+    height: 32px;
+    color:#0085FF;
+}
+

@@ -1,0 +1,22 @@
+.container_eventos{
+    background-color: #0085FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.eventos_description h6{
+    font-family: 'Montserrat';
+    font-size: 15px;
+
+
+}
+.headerlistittle h5{
+    margin-left: 8px;
+}
+
+.eventos_calendar{
+    display: flex;
+    justify-content: flex-start;
+     color: #353940;
+     gap: 5px;
+}

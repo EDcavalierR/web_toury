@@ -1,0 +1,186 @@
+::-webkit-input-placeholder {
+  color: gray;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+.login {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.login__logo {
+  text-align: center;
+  margin: 4%;
+}
+
+.login__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.login__form {
+  width: 100%;
+  margin: 0 auto;
+
+  max-width: 352px;
+  padding: 24px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 12px 0px gray;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login__sesion {
+  font-size: 32px;
+  font-weight: bold;
+  /* line-height:40px; */
+  padding-bottom: 4px;
+}
+
+.login__form > p {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* line-height:20px; */
+  color: #1976d2;
+}
+
+.div__Input {
+  font-size: 14px;
+  padding: 24px 12px 6px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.div__Input > input {
+  border: none;
+  outline: 0;
+  font-size: 14px;
+  flex: 1;
+}
+
+.login__form > form > p {
+  color: #1976d2;
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 8px;
+  display: inline-block;
+  padding: 0 8px;
+  margin: 10px 0;
+}
+
+.login__form > form > p:hover {
+  text-decoration: underline;
+  background-color: #d0e8ff;
+  cursor: pointer;
+}
+
+.login__form Button {
+  display: block !important;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 28px;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: bold !important;
+  font-family: "Montserrat", sans-serif;
+}
+.division p{
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+margin: 0 auto;
+color: gray;
+}
+.linea {
+    border-top: 1px solid #1976d2;
+    height: 2px;
+    width: 80%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+.bton_redes {
+    margin-top: 10px;
+    display: flex !important;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+  width: 100%;
+  height: 40px;
+  
+  box-shadow: rgba(28, 29, 31, 0.24) 0px 2px 2px 0px,
+    rgba(28, 29, 31, 0.12) 0px 0px 2px 0px;
+}
+
+.bton_redes img {
+  width: 32px;
+  height: 32px;
+  padding:10px;
+}
+
+.bton_redes p {
+  font-size: 16px;
+
+  line-height: 22.88px;
+
+  text-align: start;
+
+  letter-spacing: normal;
+
+  font-weight: bold;
+}
+
+.login__footer {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+  font-weight: 400;
+}
+
+.login__footer > span {
+  color: #1976d2;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login__footer > span:hover {
+  text-decoration: underline;
+  background-color: #d0e8ff;
+  border-radius: 28px;
+}
+
+/* Registro */
+.politicas label {
+  color: rgb(0, 0, 0);
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-top: 8px;
+  display: inline-block;
+  padding: 0 8px;
+  margin: 10px 0;
+  
+}
+.politicas input {
+  margin-right: 10px;
+}
+
+.politicas span {
+  color: #1976d2;
+  text-decoration: underline;
+  cursor: pointer;
+}

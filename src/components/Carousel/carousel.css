@@ -1,0 +1,50 @@
+.caro{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card{
+    width:100%;
+    height:200px;
+    background: blue;
+    color:#fff;
+    font-size:30px;
+    margin:020px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+.containerCard{
+    min-width: 110px;
+    min-height: 170px;
+    max-width: 110px;
+    max-height: 170px;
+    display: inline;
+    background-color: #0085FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.containerEventsCalendar{
+    width: '100%';
+    display: flex;
+    justify-content: flex-start;
+    color: #353940;
+    gap: 5px;
+}
+
+.textEventsName{
+    font-size: 10pt;
+    font-weight: bold;
+    color: #191919;
+}
+
+.textEventsDate{
+    font-size: 8pt;
+    font-weight: bold;
+    color: #353940;
+}
+
+   

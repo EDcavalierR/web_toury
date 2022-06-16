@@ -1,0 +1,97 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+ /* Button{
+    display: block !important;
+    margin-top:16px;
+    border-radius:28px;
+    font-size: 16px;
+    text-transform: none;
+    font-weight:bold !important;
+    font-family: 'Montserrat', sans-serif;
+
+
+} */
+.Feed{
+    flex:0.6;
+   border-right: solid 1px #1976D2;
+    box-sizing: border-box;
+    overflow-y:scroll;
+
+}
+.header_bienvenida{
+ display: flex;
+ justify-content: space-between;
+    font-size:20px;
+    font-weight:bold;
+    margin: 40px 40px 0px 40px ;
+    align-items: center;
+    align-content: center;
+}
+.header_bienvenida-p{
+    margin: 0 40px 40px;
+   
+    font-size: 14px;
+    color: #51565E;
+    padding-top: 0;
+}
+.section_ws{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center
+}
+
+.ver-mas{
+    color: #1976D2;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+justify-content:space-between;
+
+margin-top:0;
+
+align-items: center;
+align-content: center;
+display: flex;
+justify-content: space-between;
+
+}
+.ver-mas p{
+    text-align: right;
+    cursor: pointer;
+
+}
+.ver-mas h5{
+    font-size: 14px;
+ margin-left: 10px;
+ color: rgb(46, 46, 46);
+  
+}
+
+/* Eventos */
+.eventos{
+    display: flex;
+    justify-content: space-between;
+    margin:  20px 10px;
+    gap: 10px;
+}
+
+/* Restaurates  */
+
+.Cards-restaurantes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerEvents{
+    width: '100%';
+    height: fit-content;
+    padding: 5px 15px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

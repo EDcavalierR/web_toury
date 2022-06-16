@@ -1,0 +1,51 @@
+.cardE_container{
+height: 110px;
+font-family: 'Montserrat', sans-serif;
+padding: 5px;
+background-color: #dcdcdc;
+border-radius: 8px;
+margin: 5px;
+}
+.cardE_title{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.cardE_content{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin: 10px auto;
+
+}
+.cardE_content img{
+    width:40%;
+
+}
+
+.cardE_dates{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+
+/* Detalles */
+.cardE_container-d{
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+    margin: 5px;
+}
+.card_icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}

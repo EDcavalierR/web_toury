@@ -1,0 +1,80 @@
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+    margin: 5px;
+
+}
+
+.list-reseña {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    height: 60%;
+    margin-right: 5px;
+}
+
+h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #393939;
+  
+}
+.list-reseña{
+    margin: 10px 5px;
+}
+
+.list-reseña p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.4px;
+    color: #353940;
+}
+
+.list-reseña .MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    color: rgba(255, 255, 0, 0.678);
+}
+.Details_Icons .MuiSvgIcon-root {
+    background: #c3e3fd;
+    border-radius: 8px;
+    align-items: center;
+    padding: 2px ;
+    margin: 2px;
+    color: #0085FF;
+}
+
+/* Card_restaurantes */
+
+.list_description p{
+    margin-left: 5px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+
+}
+.list-container_r{
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+    margin: 5px;
+
+}

@@ -1,0 +1,28 @@
+.reseñas_container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.reseñas_text{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.reseñas_container .MuiAvatar-root  {
+    width:30px;
+    height:30px;
+
+}
+
+.reseñas_author h5{
+    margin-top:10px;
+    margin-bottom: 5px;
+
+}
+.reseñas_author p{
+    font-size: 12px;
+}
+.reseñas_text p{
+   color: #51565E;
+   font-size: 12px;
+   font-weight:500;
+}

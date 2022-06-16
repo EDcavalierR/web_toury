@@ -1,0 +1,183 @@
+.Details_container {
+    /* background-color: #F2F2F0; */
+    margin: 0;
+    padding: 8px;
+}
+
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+.linea {
+    border-top: 1px solid gray;
+    height: 3px;
+    width: 100%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+.Details_title {
+    margin: 10px 0px;
+}
+
+.Details_title h4 {
+
+    font-weight: bold;
+    font-size: 20px;
+    color: #1976D2;
+
+}
+.Detailsstar-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.Detailsstar-icon p{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.Details_caracteristicas p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #3283FD;
+}
+
+.Details_caracteristicas h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #393939;
+}
+
+.Details_reseñas {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    margin:10px 0;
+}
+.Details_reseñas p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.Detailsstar-icon .MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+    color: yellow;
+    margin: 2px;
+
+
+}
+.Detailsstar-icon_r .MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+    color: yellow;
+    margin: 2px;
+
+
+}
+
+
+
+
+.Details_Icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Details_Icons .MuiSvgIcon-root {
+    background: rgba(2, 133, 255, 0.288);
+    border-radius: 16px;
+    align-items: center;
+    padding: 8px 10px;
+    color: #0085FF;
+}
+
+.Details_description{
+margin: 10px 0;
+}
+.Details_description h5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Details_description p {
+    color: #393939;
+    font-size: 14px;
+}
+
+.Details_map iframe {
+
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.Details_Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Sidebaricon {
+
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    height: 40px;
+}
+
+
+.Sidebar h2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    color: #393942;
+    padding: 0 10px;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 10px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Details_Contact .MuiSvgIcon-root {
+    width: 32px;
+    height: 32px;
+    color: #0084ff;
+    background: #C4C4C4;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.Details_Contact {
+    pointer-events: none;
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-container {
+    width: 180px;
+    overflow: hidden;
+
+    transition: 0.3s;
+    animation: ease-in-out;
+    transform: scale(1.1);
+    /* box-shadow: 0px 0px 5px 0px; */
+    border: solid 1px gray;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 5px;
+    height: 180px;
+}
+
+.image-container img {
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+   
+}
+
+h3,
+p {
+    margin: 4px;
+    padding: 4px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 7px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #130e0e;
+  
+}
+
+.card-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 1.86%;
+    right: 38.2%;
+    top: 70.1%;
+    bottom: 13.05%;
+    font-style: normal;
+    /* margin-top:10px; */
+
+    font-size: 25px;
+    
+
+    color: #005AC5;
+
+}
+.star-icon{
+    margin-top:20px;
+
+}
+.star-icon .MuiSvgIcon-root{
+    width: 15px;
+    height: 15px;
+    color:yellow;
+   margin-left: 5px;
+   margin-top: 8px;
+    
+}
+
+.btn {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+
+}
+
+.btn button {
+    position: absolute;
+    left: 68.57%;
+    right: 2.86%;
+    top: 86.67%;
+    bottom: 3.19%;
+
+    background: #003BD1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
